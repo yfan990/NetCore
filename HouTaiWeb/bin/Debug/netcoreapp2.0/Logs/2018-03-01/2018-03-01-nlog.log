@@ -1,0 +1,64 @@
+2018-03-01 18:12:25.8146|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 GET http://localhost:13128/   
+2018-03-01 18:12:26.0887|Microsoft.AspNetCore.Session.SessionMiddleware|WARN|  Error unprotecting the session cookie. The payload was invalid.
+2018-03-01 18:12:26.1228|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  Cookies was not authenticated. Failure message: Unprotect ticket failed 
+2018-03-01 18:12:26.3173|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|  Authorization failed for user: (null). 
+2018-03-01 18:12:26.3173|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2018-03-01 18:12:26.3173|Microsoft.AspNetCore.Mvc.ChallengeResult|INFO|  Executing ChallengeResult with authentication schemes (). 
+2018-03-01 18:12:26.3370|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  AuthenticationScheme: Cookies was challenged. 
+2018-03-01 18:12:26.3370|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.HomeController.Index (HouTaiWeb) in 31.9731ms 
+2018-03-01 18:12:26.3574|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 621.7356ms 302  
+2018-03-01 18:12:26.3684|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 GET http://localhost:13128/Login?ReturnUrl=%2F   
+2018-03-01 18:12:26.3930|Microsoft.AspNetCore.Session.SessionMiddleware|WARN|  Error unprotecting the session cookie. The payload was invalid.
+2018-03-01 18:12:26.3986|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  Cookies was not authenticated. Failure message: Unprotect ticket failed 
+2018-03-01 18:12:26.7257|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executing action method HouTaiWeb.Controllers.LoginController.Index (HouTaiWeb) with arguments ((null)) - ModelState is Valid 
+2018-03-01 18:12:31.6598|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|  Executing ViewResult, running view at path /Views/Login/Index.cshtml. 
+2018-03-01 18:12:32.0953|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.LoginController.Index (HouTaiWeb) in 5680.4739ms 
+2018-03-01 18:12:32.1216|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 5745.3765ms 200 text/html; charset=utf-8 
+2018-03-01 18:12:51.0629|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 POST http://localhost:13128/Login/UserLogin application/x-www-form-urlencoded; charset=UTF-8 245 
+2018-03-01 18:12:51.0878|Microsoft.AspNetCore.Session.SessionMiddleware|WARN|  Error unprotecting the session cookie. The payload was invalid.
+2018-03-01 18:12:51.0987|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  Cookies was not authenticated. Failure message: Unprotect ticket failed 
+2018-03-01 18:12:51.3191|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executing action method HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) with arguments (BT.Model.ViewModel.Account.AccountLoginEntity) - ModelState is Valid 
+2018-03-01 18:12:51.6981|Microsoft.EntityFrameworkCore.Infrastructure|INFO|  Entity Framework Core 2.0.1-rtm-125 initialized 'HouTaiDbContext' using provider 'MySql.Data.EntityFrameworkCore' with options: MaxPoolSize=128  
+2018-03-01 18:12:52.8500|Microsoft.EntityFrameworkCore.Database.Command|INFO|  Executed DbCommand (59ms) [Parameters=[@__loginEntity_UserName_0='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`ID`, `x`.`AddTime`, `x`.`Password`, `x`.`Salt`, `x`.`UserName`
+FROM `Account` AS `x`
+WHERE `x`.`UserName` = @__loginEntity_UserName_0
+LIMIT 1 
+2018-03-01 18:12:52.8834|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|  Executing JsonResult, writing value BT.Model.ServiceResult`1[System.String]. 
+2018-03-01 18:12:53.0350|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) in 1828.2048ms 
+2018-03-01 18:12:53.0414|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 1980.4193ms 200 application/json; charset=utf-8 
+2018-03-01 18:13:31.8155|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 POST http://localhost:13128/Login/UserLogin application/x-www-form-urlencoded; charset=UTF-8 245 
+2018-03-01 18:13:31.8393|Microsoft.AspNetCore.Session.SessionMiddleware|WARN|  Error unprotecting the session cookie. The payload was invalid.
+2018-03-01 18:13:31.8499|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  Cookies was not authenticated. Failure message: Unprotect ticket failed 
+2018-03-01 18:13:31.8702|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executing action method HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) with arguments (BT.Model.ViewModel.Account.AccountLoginEntity) - ModelState is Valid 
+2018-03-01 18:13:40.9412|Microsoft.EntityFrameworkCore.Database.Command|INFO|  Executed DbCommand (23ms) [Parameters=[@__loginEntity_UserName_0='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`ID`, `x`.`AddTime`, `x`.`Password`, `x`.`Salt`, `x`.`UserName`
+FROM `Account` AS `x`
+WHERE `x`.`UserName` = @__loginEntity_UserName_0
+LIMIT 1 
+2018-03-01 18:13:52.8853|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|  Executing JsonResult, writing value BT.Model.ServiceResult`1[System.String]. 
+2018-03-01 18:13:52.8853|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) in 21035.3386ms 
+2018-03-01 18:13:52.9156|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 21081.9ms 200 application/json; charset=utf-8 
+2018-03-01 18:17:55.2139|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 POST http://localhost:13128/Login/UserLogin application/x-www-form-urlencoded; charset=UTF-8 245 
+2018-03-01 18:17:55.2384|Microsoft.AspNetCore.Session.SessionMiddleware|WARN|  Error unprotecting the session cookie. The payload was invalid.
+2018-03-01 18:17:55.2506|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  Cookies was not authenticated. Failure message: Unprotect ticket failed 
+2018-03-01 18:17:55.2692|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executing action method HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) with arguments (BT.Model.ViewModel.Account.AccountLoginEntity) - ModelState is Valid 
+2018-03-01 18:17:58.2850|Microsoft.EntityFrameworkCore.Database.Command|INFO|  Executed DbCommand (23ms) [Parameters=[@__loginEntity_UserName_0='?' (Size = 5)], CommandType='Text', CommandTimeout='30']
+SELECT `x`.`ID`, `x`.`AddTime`, `x`.`Password`, `x`.`Salt`, `x`.`UserName`
+FROM `Account` AS `x`
+WHERE `x`.`UserName` = @__loginEntity_UserName_0
+LIMIT 1 
+2018-03-01 18:18:07.5342|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  AuthenticationScheme: Cookies signed in. 
+2018-03-01 18:18:07.6509|Microsoft.AspNetCore.Mvc.Formatters.Json.Internal.JsonResultExecutor|INFO|  Executing JsonResult, writing value BT.Model.ServiceResult`1[System.String]. 
+2018-03-01 18:18:07.6509|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.LoginController.UserLogin (HouTaiWeb) in 12401.3ms 
+2018-03-01 18:18:07.6509|Microsoft.AspNetCore.Session.DistributedSession|INFO|  Session started; Key:4d3dda16-e1b1-e5e0-43c8-37efb8ef2fee, Id:4fee3c42-ceeb-fbe0-ec08-4925605ae914 
+2018-03-01 18:18:07.6638|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 12451.9816ms 200 application/json; charset=utf-8 
+2018-03-01 18:18:07.6802|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request starting HTTP/1.1 GET http://localhost:13128/   
+2018-03-01 18:18:07.6954|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|INFO|  AuthenticationScheme: Cookies was successfully authenticated. 
+2018-03-01 18:18:07.6954|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|  Authorization was successful for user: libin. 
+2018-03-01 18:18:07.7842|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executing action method HouTaiWeb.Controllers.HomeController.Index (HouTaiWeb) with arguments ((null)) - ModelState is Valid 
+2018-03-01 18:18:07.7888|HouTaiWeb.Controllers.HomeController|INFO|  111111 
+2018-03-01 18:18:07.7888|HouTaiWeb.Controllers.HomeController|INFO|  111111 
+2018-03-01 18:18:08.0352|Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.ViewResultExecutor|INFO|  Executing ViewResult, running view at path /Views/Home/Index.cshtml. 
+2018-03-01 18:18:08.3853|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|  Executed action HouTaiWeb.Controllers.HomeController.Index (HouTaiWeb) in 682.9651ms 
+2018-03-01 18:18:08.4003|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|  Request finished in 711.1034ms 200 text/html; charset=utf-8 

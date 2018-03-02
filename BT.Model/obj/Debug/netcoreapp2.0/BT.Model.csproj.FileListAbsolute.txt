@@ -1,0 +1,11 @@
+E:\我的\NetCore\BT.Model\bin\Debug\netcoreapp2.0\BT.Model.deps.json
+E:\我的\NetCore\BT.Model\bin\Debug\netcoreapp2.0\BT.Model.dll
+E:\我的\NetCore\BT.Model\bin\Debug\netcoreapp2.0\BT.Model.pdb
+E:\我的\NetCore\BT.Model\bin\Debug\netcoreapp2.0\BT.Common.dll
+E:\我的\NetCore\BT.Model\bin\Debug\netcoreapp2.0\BT.Common.pdb
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.csprojResolveAssemblyReference.cache
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.csproj.CoreCompileInputs.cache
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.AssemblyInfoInputs.cache
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.AssemblyInfo.cs
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.dll
+E:\我的\NetCore\BT.Model\obj\Debug\netcoreapp2.0\BT.Model.pdb
