@@ -22,7 +22,8 @@ namespace TestConsole
 
             log.Info("2222");
             log.Info("11111");
-          
+            log.Info("2222");
+            log.Info("11111");
             Console.WriteLine("Hello World!");
         }
     }
