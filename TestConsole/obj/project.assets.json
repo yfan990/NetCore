@@ -5195,11 +5195,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\我的\\GitHubNetCore\\TestConsole\\TestConsole.csproj",
+      "projectUniqueName": "E:\\我的\\Git\\NetCore\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
-      "projectPath": "E:\\我的\\GitHubNetCore\\TestConsole\\TestConsole.csproj",
+      "projectPath": "E:\\我的\\Git\\NetCore\\TestConsole\\TestConsole.csproj",
       "packagesPath": "C:\\Users\\yunfa\\.nuget\\packages\\",
-      "outputPath": "E:\\我的\\GitHubNetCore\\TestConsole\\obj\\",
+      "outputPath": "E:\\我的\\Git\\NetCore\\TestConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

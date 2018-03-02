@@ -7,3 +7,12 @@ E:\我的\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.AssemblyInfoInputs
 E:\我的\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.AssemblyInfo.cs
 E:\我的\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.dll
 E:\我的\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.pdb
+E:\我的\Git\NetCore\BT.Common\bin\Debug\netcoreapp2.0\BT.Common.deps.json
+E:\我的\Git\NetCore\BT.Common\bin\Debug\netcoreapp2.0\BT.Common.dll
+E:\我的\Git\NetCore\BT.Common\bin\Debug\netcoreapp2.0\BT.Common.pdb
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.csprojResolveAssemblyReference.cache
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.csproj.CoreCompileInputs.cache
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.AssemblyInfoInputs.cache
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.AssemblyInfo.cs
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.dll
+E:\我的\Git\NetCore\BT.Common\obj\Debug\netcoreapp2.0\BT.Common.pdb

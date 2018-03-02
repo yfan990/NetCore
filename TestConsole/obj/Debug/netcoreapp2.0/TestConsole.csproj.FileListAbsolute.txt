@@ -9,3 +9,14 @@ E:\我的\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfoIn
 E:\我的\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfo.cs
 E:\我的\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.dll
 E:\我的\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.pdb
+E:\我的\Git\NetCore\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.deps.json
+E:\我的\Git\NetCore\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.runtimeconfig.json
+E:\我的\Git\NetCore\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.runtimeconfig.dev.json
+E:\我的\Git\NetCore\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.dll
+E:\我的\Git\NetCore\TestConsole\bin\Debug\netcoreapp2.0\TestConsole.pdb
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.csprojResolveAssemblyReference.cache
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.csproj.CoreCompileInputs.cache
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfoInputs.cache
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.AssemblyInfo.cs
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.dll
+E:\我的\Git\NetCore\TestConsole\obj\Debug\netcoreapp2.0\TestConsole.pdb

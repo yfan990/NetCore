@@ -5469,11 +5469,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\我的\\GitHubNetCore\\BT.Common\\BT.Common.csproj",
+      "projectUniqueName": "E:\\我的\\Git\\NetCore\\BT.Common\\BT.Common.csproj",
       "projectName": "BT.Common",
-      "projectPath": "E:\\我的\\GitHubNetCore\\BT.Common\\BT.Common.csproj",
+      "projectPath": "E:\\我的\\Git\\NetCore\\BT.Common\\BT.Common.csproj",
       "packagesPath": "C:\\Users\\yunfa\\.nuget\\packages\\",
-      "outputPath": "E:\\我的\\GitHubNetCore\\BT.Common\\obj\\",
+      "outputPath": "E:\\我的\\Git\\NetCore\\BT.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

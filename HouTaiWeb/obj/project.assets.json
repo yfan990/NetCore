@@ -14214,11 +14214,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\我的\\GitHubNetCore\\HouTaiWeb\\HouTaiWeb.csproj",
+      "projectUniqueName": "E:\\我的\\Git\\NetCore\\HouTaiWeb\\HouTaiWeb.csproj",
       "projectName": "HouTaiWeb",
-      "projectPath": "E:\\我的\\GitHubNetCore\\HouTaiWeb\\HouTaiWeb.csproj",
+      "projectPath": "E:\\我的\\Git\\NetCore\\HouTaiWeb\\HouTaiWeb.csproj",
       "packagesPath": "C:\\Users\\yunfa\\.nuget\\packages\\",
-      "outputPath": "E:\\我的\\GitHubNetCore\\HouTaiWeb\\obj\\",
+      "outputPath": "E:\\我的\\Git\\NetCore\\HouTaiWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14238,11 +14238,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\我的\\GitHubNetCore\\BT.Model\\BT.Model.csproj": {
-              "projectPath": "E:\\我的\\GitHubNetCore\\BT.Model\\BT.Model.csproj"
+            "E:\\我的\\Git\\NetCore\\BT.Model\\BT.Model.csproj": {
+              "projectPath": "E:\\我的\\Git\\NetCore\\BT.Model\\BT.Model.csproj"
             },
-            "E:\\我的\\GitHubNetCore\\BT.Core\\BT.Core.csproj": {
-              "projectPath": "E:\\我的\\GitHubNetCore\\BT.Core\\BT.Core.csproj"
+            "E:\\我的\\Git\\NetCore\\BT.Core\\BT.Core.csproj": {
+              "projectPath": "E:\\我的\\Git\\NetCore\\BT.Core\\BT.Core.csproj"
             }
           }
         }

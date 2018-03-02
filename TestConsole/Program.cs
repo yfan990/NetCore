@@ -19,8 +19,8 @@ namespace TestConsole
 
 
             ILog log = log4net.LogManager.GetLogger(repository.Name, "NETCorelog4net");
-            
-           
+
+            log.Info("2222");
             log.Info("11111");
           
             Console.WriteLine("Hello World!");

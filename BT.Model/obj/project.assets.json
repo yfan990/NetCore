@@ -6490,11 +6490,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\我的\\GitHubNetCore\\BT.Model\\BT.Model.csproj",
+      "projectUniqueName": "E:\\我的\\Git\\NetCore\\BT.Model\\BT.Model.csproj",
       "projectName": "BT.Model",
-      "projectPath": "E:\\我的\\GitHubNetCore\\BT.Model\\BT.Model.csproj",
+      "projectPath": "E:\\我的\\Git\\NetCore\\BT.Model\\BT.Model.csproj",
       "packagesPath": "C:\\Users\\yunfa\\.nuget\\packages\\",
-      "outputPath": "E:\\我的\\GitHubNetCore\\BT.Model\\obj\\",
+      "outputPath": "E:\\我的\\Git\\NetCore\\BT.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6514,8 +6514,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\我的\\GitHubNetCore\\BT.Common\\BT.Common.csproj": {
-              "projectPath": "E:\\我的\\GitHubNetCore\\BT.Common\\BT.Common.csproj"
+            "E:\\我的\\Git\\NetCore\\BT.Common\\BT.Common.csproj": {
+              "projectPath": "E:\\我的\\Git\\NetCore\\BT.Common\\BT.Common.csproj"
             }
           }
         }
